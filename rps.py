@@ -1,3 +1,4 @@
+import random
 rock = '''
     _______
 ---'   ____)
@@ -24,9 +25,6 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-#Write your code below this line 👇
-
-import random
 
 human_choice = int(
     input(

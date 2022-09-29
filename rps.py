@@ -33,6 +33,8 @@ human_choice = int(
         "What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. \n"
     ))
 
+if human_choice >= 3 or human_choice < 0:
+  print('You typed an invalid number, you lose!')
 computer_choice = random.randint(0, 2)
 if human_choice == 0:
     print(rock)

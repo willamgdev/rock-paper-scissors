@@ -74,7 +74,3 @@ if computer_choice == 1:
   print(paper)
 if computer_choice == 2:
   print(scissors)
-
-
-
-
